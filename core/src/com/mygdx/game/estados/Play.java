@@ -250,9 +250,9 @@ public class Play extends GameState{
     private void createWalls(){
         //Cargar el tiledMap
         try{
-            tileMap = new TmxMapLoader().load("android/assets/maps/level"+level+".tmx");
+            tileMap = new TmxMapLoader().load("maps/level"+level+".tmx");
         }catch(Exception e){
-            System.out.println("No encuentra el archivo android/assets/maps/level" + level + ".tmx");
+            System.out.println("No encuentra el archivo maps/level" + level + ".tmx");
             Gdx.app.exit();
         }
 

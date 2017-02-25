@@ -32,19 +32,19 @@ public class MyGdxGame extends ApplicationAdapter {
 
 		res = new Content();
 		//cargar una textura
-		res.loadTexture("android/assets/images/menu.png");
-		res.loadTexture("android/assets/images/bgs.png");
-		res.loadTexture("android/assets/images/catsir.png");
-		res.loadTexture("android/assets/images/mostacho.png");
-		res.loadTexture("android/assets/images/hud.png");
-		res.loadTexture("android/assets/images/spikes.png");
+		res.loadTexture("images/menu.png");
+		res.loadTexture("images/bgs.png");
+		res.loadTexture("images/catsir.png");
+		res.loadTexture("images/mostacho.png");
+		res.loadTexture("images/hud.png");
+		res.loadTexture("images/spikes.png");
 
-		res.loadSound("android/assets/audio/sfx/jump.wav");
-		res.loadSound("android/assets/audio/sfx/coin.mp3");
-		res.loadSound("android/assets/audio/sfx/levelselect.wav");
-		res.loadSound("android/assets/audio/sfx/hit.wav");
+		res.loadSound("audio/sfx/jump.wav");
+		res.loadSound("audio/sfx/coin.mp3");
+		res.loadSound("audio/sfx/levelselect.wav");
+		res.loadSound("audio/sfx/hit.wav");
 
-		res.loadMusic("android/assets/audio/music/song.mp3");
+		res.loadMusic("audio/music/song.mp3");
 		res.getMusic("song").setLooping(true);
 		res.getMusic("song").setVolume(0.5f);
 		res.getMusic("song").play();
