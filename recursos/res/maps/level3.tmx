@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="51" height="8" tilewidth="32" tileheight="32" nextobjectid="30">
+ <tileset firstgid="1" name="blocks" tilewidth="32" tileheight="32" tilecount="3" columns="3">
+  <image source="blocks.png" width="96" height="32"/>
+ </tileset>
+ <layer name="red" width="51" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDDXAiAdTw5xRgB3gC/fRcMMEAC+4ABY=
+  </data>
+ </layer>
+ <layer name="green" width="51" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDFbAhAMPdntp5U56+B3dPnL8TSqmJqCXPcQAAHQoAE0=
+  </data>
+ </layer>
+ <layer name="blue" width="51" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgcgBkNj4KBAejxgA+PgpEHRtMCbcBwDUsABiMASQ==
+  </data>
+ </layer>
+ <objectgroup name="mostachos">
+  <object id="2" x="754" y="143">
+   <ellipse/>
+  </object>
+  <object id="3" x="786" y="143">
+   <ellipse/>
+  </object>
+  <object id="24" x="303" y="145">
+   <ellipse/>
+  </object>
+  <object id="25" x="592" y="109">
+   <ellipse/>
+  </object>
+  <object id="27" x="1136" y="113">
+   <ellipse/>
+  </object>
+  <object id="29" x="1583" y="176">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup name="spikes">
+  <object id="6" x="242" y="144">
+   <ellipse/>
+  </object>
+  <object id="7" x="402" y="144">
+   <ellipse/>
+  </object>
+  <object id="9" x="593" y="145">
+   <ellipse/>
+  </object>
+  <object id="11" x="1584" y="145">
+   <ellipse/>
+  </object>
+  <object id="26" x="1169" y="48">
+   <ellipse/>
+  </object>
+  <object id="28" x="1297" y="176">
+   <ellipse/>
+  </object>
+ </objectgroup>
+</map>

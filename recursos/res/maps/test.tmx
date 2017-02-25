@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="40" height="8" tilewidth="32" tileheight="32" nextobjectid="7">
+ <tileset firstgid="1" name="blocks" tilewidth="32" tileheight="32" tilecount="3" columns="3">
+  <image source="blocks.png" width="96" height="32"/>
+ </tileset>
+ <layer name="rojos" width="40" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDAfASACPAkwAAA4wAAk=
+  </data>
+ </layer>
+ <layer name="verdes" width="40" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2BoACY0PApGAaUAABdwAAk=
+  </data>
+ </layer>
+ <layer name="azules" width="40" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFAwWYceBRMApGAX0AAEOUABM=
+  </data>
+ </layer>
+ <objectgroup name="mostachos">
+  <object id="1" x="114" y="73" width="21" height="23"/>
+  <object id="2" x="176" y="124" width="17" height="23"/>
+  <object id="3" x="208" y="75" width="35" height="30"/>
+  <object id="4" x="230" y="134" width="22" height="22"/>
+  <object id="5" x="268" y="102" width="21" height="24"/>
+  <object id="6" x="120" y="120" width="28" height="25"/>
+ </objectgroup>
+</map>
